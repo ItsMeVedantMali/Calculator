@@ -20,7 +20,7 @@ function calculate() {
         display.value = result;
 
         // Send data to PHP
-        fetch("save.php", {
+        fetch("cal.php", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
