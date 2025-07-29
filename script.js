@@ -13,7 +13,6 @@ function deleteLast() {
 }
 
 function calculate() {
-    function calculate() {
     try {
         let expression = display.value;
         let result = eval(expression);
@@ -32,4 +31,4 @@ function calculate() {
     }
 }
 
-}
+
